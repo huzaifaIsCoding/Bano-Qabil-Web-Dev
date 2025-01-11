@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="post">
+
+        <h1>Admission Form</h1>
+
+        <label for="sname">Name</label>
+        <input type="text" placeholder="Enter your name" name="sname" id="sname"> <br><br>
+
+        <label for="fname">Father Name</label>
+        <input type="text" placeholder="Enter your father name" name="fname" id="fname" ><br><br>
+
+        <label for="email">Email</label> 
+        <input type="email" placeholder="Enter your email" name="email" id="email"> <br><br>
+
+        <label for="course">Select your course</label>
+        <select name="course" id="course">
+            <option value="">Computer Science</option>
+            <option value="">Artificial Intelligence</option>
+            <option value="">Data Science</option>
+            <option value="">Cyber Security</option>
+            <option value="">Machine Learning</option>
+            <option value="">Cloud Computing</option>
+        </select> <br><br>
+
+        <label for="textarea">The reason you join us:</label><br>
+        <textarea name="textarea" id="textarea" cols="25" rows="5" >Why us...</textarea> <br><br>
+        
+        <input type="checkbox" name="tnc" id="tnc" >
+        <label for="tnc">Do you accept our T&C</label><br><br>
+
+        <button type="submit">Submit</button>  
+        <button type="submit">Save as draft</button>  <br><br>
+    </form>
+
+    <table border="1">
+        <thead>
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Course</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Huzaifa</td>
+                <td>Imran Sohail</td>
+                <td>Web Dev</td>
+            </tr>
+            <tr>
+                <td>Asad</td>
+                <td>Fawad</td>
+                <td>Web Dev</td>
+            </tr>
+            <tr>
+                <td>Junaid</td>
+                <td>Naved Khan</td>
+                <td>App Dev</td>
+            </tr>
+            <tr>
+                <td>Fawad</td>
+                <td>Khalid</td>
+                <td>App Dev</td>
+            </tr>
+    </tbody>
+    </table>
+
+</body>
+</html>
