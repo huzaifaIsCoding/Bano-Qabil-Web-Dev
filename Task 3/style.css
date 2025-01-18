@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #58344f;
+    
+}
+.head{
+    background-color: #320A28;
+    color: white;
+    text-align: center;
+    padding: 25px 0px;
+    width: 100%;
+    
+}
+.head img{
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.main{
+    margin-top: 30px;
+    background-color: #511730;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    
+}
+
+
+.education{
+    background-color: #8E443D;
+    margin-top: 30px;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    
+}
+
+.skills{
+    margin-top: 30px;
+    background-color: #bd6a41;
+    color: white;
+    padding: 30px;
+    width: 300px;
+
+}
+
+.social-media{
+    background-color: #aaa15e;
+    margin-top: 30px;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+
+
+
+@media (max-width: 768px) {
+    body{
+        font-size: 12px;
+    }
+    
+   
+}
