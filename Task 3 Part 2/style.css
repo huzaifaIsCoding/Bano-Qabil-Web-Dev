@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #58344f;
+    
+}
+.head{
+    background-color: #320A28;
+    color: white;
+    text-align: center;
+    padding: 25px 0px;
+    width: 100%;
+    border-bottom: 5px solid #8E443D;
+    box-shadow: 3px 5px 16px 0px black;
+    
+}
+.head img{
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.main{
+    margin-top: 30px;
+    background-color: #511730;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 3px 5px 16px 0px black;
+    
+}
+
+
+.education{
+    background-color: #8E443D;
+    margin-top: 30px;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 3px 5px 16px 0px black;
+    
+}
+
+.skills{
+    margin-top: 30px;
+    background-color: #bd6a41;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 3px 5px 16px 0px black;
+
+}
+
+.social-media{
+    background-color: #aaa15e;
+    margin-top: 30px;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    margin-bottom: 50px;
+    box-shadow: 3px 5px 16px 0px black;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+
+
+
+@media (max-width: 768px) {
+    body{
+        font-size: 12px;
+    }
+    
+   
+}

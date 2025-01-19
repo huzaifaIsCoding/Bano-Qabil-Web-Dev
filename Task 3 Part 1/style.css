@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    background-color: #8E443D;
+}
+.headings{
+    background-color: #320A28;
+    color: white;
+    text-align: center;
+    padding: 30px ;
+}
+.headings h1{
+    padding-bottom: 20px;
+}
+.body-1{
+    background-color: #511730;
+    color: aliceblue;
+    padding: 50px 40px;
+    font-size: 20px;
+}
+.body-2{
+    background-color: #8E443D;
+    color: aliceblue;
+    padding: 50px 40px;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .main{
+        background-color: red;
+    }
+}
