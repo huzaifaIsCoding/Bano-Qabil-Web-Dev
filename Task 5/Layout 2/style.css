@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-body{
+    /* background-color: rgb(212, 190, 190); */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(224, 220, 220);
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(224, 220, 220);
+}
+
+.logo{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.features{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.columns{
+    width: 100%;
+    height: 25%;
+    background: rgb(224, 220, 220);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.column{
+    width: 30%;
+    height: 100%;
+    /* flex-grow: 1; */
+    text-align: center;
+    background-color: rgb(206, 189, 189);
+}
+.column p{
+    padding: 20px;
+}
+.copyright{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
