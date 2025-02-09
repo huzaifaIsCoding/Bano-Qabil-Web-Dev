@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav{
+    height: 10vh;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.links{
+    display: flex;
+    gap: 15px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.logo > span{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: oblique;
+}
+.logo > img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.title{
+    background-color: #212529;
+    height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.title-body{
+    height: 50%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+   background-color: #212529;
+
+}
+.title-body > h1{
+    font-size: 40px;
+}
+.title-body > h1 > span{
+    color: #F2C010;
+    
+}
+.title-body > p{
+    font-size: 20px;
+}
+.title-img > img{
+    height: 300px;
+    width: 300px;
+}
+.enroll-button button{
+    padding: 10px 15px;
+    background-color: #3C6EFD;
+    color: white;
+    border: none;
+    margin-top: 10px;
+
+}
+.search{
+    height: 20vh;
+    background-color: #3C6EFD;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.search-input > input{
+    height: 30px;
+    padding: 0px 30px ;
+    border: none;
+    
+}
+.search-input > button{
+    height: 30px;
+    padding: 0px 30px ;
+    background-color: white;
+    border: none;
+
+}
+
+.cards{
+    margin-top: 50px;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    background-color: black;
+    height: 90%;
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+    font-size: 0.9em;
+}
+.card-grey{
+    background-color: #212529;
+}
+.card > button{
+    background-color: #3C6EFD;
+    color: white;
+    border: 0px;
+    padding: 10px;
+}
+
+.tech{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    margin: 80px 0px;
+}
+.tech-img > img{
+    height: 80%;
+    width: 80%;
+
+}
+.tech-text > h2{
+    font-size: 38px;
+    width: 100%;
+
+}
+
+.react{
+    background-color: #212529;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+    
+}
+.react-text{
+    height: 80%;
+    color: white;
+    width: 50%;
+    font-size: 1em;
+
+}
+
+.react-button button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #3C6EFD;
+    color: white;
+    border: none;
+    
+}
+
+.react-img{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.react-img > img{
+    height: 80%;
+    width: 100%;
+
+}
+
+.contact{
+   
+    height: 70vh;
+    display: flex;
+    padding: 70px;
+}
+
+.contact-details{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.contact-details h1{
+    margin: 18px 0px;
+}
+
+.contact-details span{
+    font-weight: bold;
+}
+
+.contact-details p{
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 10px;
+}
+
+.map{
+    height: 100%;
+    width: 60%;
+    
+}
+.map iframe{
+    height: 100%;
+    width: 100%;
+}
+
+
+.footer{
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+    color: white;
+    font-weight: bold
+}
+
+button{
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: #0e4cf7;
+
+}
+
+.nav a:hover {
+    border-bottom: 2px solid yellow;
+
+}
+
